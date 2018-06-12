@@ -34,13 +34,9 @@ experience:
   description: Testing for a large government project
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: B.S. Information Technology
+  timeperiod: May 2010
+  description: University of Central Florida
 
 # skill level goes 0 to 100
 skills:
@@ -60,7 +56,13 @@ skills:
   level: 70
 - name: dotnet core
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+- name: NHibernate
+  level: 99
+- name: Entity Framework
+  level: 99
+- name: Java
+  level: 99
+knowledge: Vector Graphics, Inkscape. Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
 contact:
@@ -68,8 +70,7 @@ contact:
   phone: 407-733-9763
   street: 1234 Broadway
   city: New York
-  website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+  website: alandavidness.com
+  github: avidness
 lang: en
 `
