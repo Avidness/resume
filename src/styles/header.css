@@ -1,0 +1,40 @@
+#header{
+  height: 100vh; 
+  background-color: #222;
+  background-image: url('../img/bg_circuits.svg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#profile_image {
+  position: absolute;
+  top: 5%;
+  height:200px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#title {
+  position: absolute;
+  top: 40%;
+}
+
+#subtext {
+  position: absolute;
+  top: 50%;
+}
+
+#header_icons{
+  position: absolute;
+  top: 60%;
+}
+
+#header_bottom {
+  position: absolute;
+  top: 80%;
+  padding-bottom: 10px;
+  text-align: center;
+}

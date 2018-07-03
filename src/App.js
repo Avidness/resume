@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './components/Header'
 import Steps from './components/Steps'
-import './App.css';
+import './styles/App.css';
 
 class App extends Component {
   render() {
