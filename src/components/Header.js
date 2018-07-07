@@ -1,4 +1,5 @@
 import React from 'react'
+import Typography from '@material-ui/core/Typography';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope, faFilePdf, faCodeBranch, faCode, faCaretDown } from '@fortawesome/fontawesome-free-solid'
 import { faGithub, faGithubAlt } from '@fortawesome/fontawesome-free-brands'
@@ -6,12 +7,11 @@ import imgProfile from '../img/me.png'
 import '../styles/header.css';
 
 const Header = () => (
-  
   <div id="header">
 
     <img id="profile_image" className="center" src={imgProfile} alt="profile" />
-    <span id="title" className="center">Alan David Ness</span>
-    <span id="subtext" className="center">Full-Stack Web Developer</span>
+    <Typography id="title" variant="display1">Alan David Ness</Typography>
+    <Typography id="subtext" variant="title">Full-Stack Web Developer</Typography>
 
     <div id="header_icons" className="center">
       <FontAwesomeIcon icon={faPhone} size="2x" />
