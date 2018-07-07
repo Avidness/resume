@@ -19,11 +19,13 @@
 
 #title {
   position: absolute;
-  top: 40%;
+  text-align: center;
+  top: 35%;
 }
 
 #subtext {
   position: absolute;
+  text-align: center;
   top: 50%;
 }
 
