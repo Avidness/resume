@@ -1,6 +1,5 @@
 #header{
   height: 100vh; 
-  background-color: #222;
   background-image: url('../img/bg_circuits.svg');
   display: flex;
   align-items: center;
@@ -44,7 +43,7 @@
 
 #header_bottom {
   position: absolute;
-  top: 80%;
+  top: 89%;
   padding-bottom: 10px;
   text-align: center;
 }
