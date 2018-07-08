@@ -30,8 +30,16 @@
 }
 
 #header_icons{
-  position: absolute;
-  top: 60%;
+  margin-top: 50px;
+}
+
+#header_icons > a {
+  padding:15px;
+  color: inherit;
+}
+
+#header_icons > a:hover {
+  color:white;
 }
 
 #header_bottom {
