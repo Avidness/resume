@@ -1,10 +1,12 @@
 import React from 'react'
-import { Tooltip } from '@material-ui/core';
+import { Tooltip, Grow } from '@material-ui/core';
 
 const IconLink = (props) => (
   <Tooltip title={props.tooltip}>
     <a href={props.href} target="blank">
-      {props.children}
+      <Grow in={true} timeout={2500}>
+        {props.children}
+      </Grow>
     </a>
   </Tooltip>
 )
