@@ -1,6 +1,6 @@
 import React from 'react'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faPhone, faEnvelope, faIdCard } from '@fortawesome/fontawesome-free-solid'
+import { faPhone, faEnvelope, faIdCard, faCode } from '@fortawesome/fontawesome-free-solid'
 import { faGithub } from '@fortawesome/fontawesome-free-brands'
 import IconLink from './IconLink';
 import '../styles/header.css';
@@ -18,6 +18,9 @@ const HeaderLinks = () => (
     </IconLink>
     <IconLink tooltip="adavidness@gmail.com" href="mailto:adavidness@gmail.com">
       <FontAwesomeIcon icon={faEnvelope} size="2x" />
+    </IconLink>
+    <IconLink tooltip="Source code for this site" href="https://github.com/Avidness/resume">
+      <FontAwesomeIcon icon={faCode} size="2x" />
     </IconLink>
   </div>
 )
