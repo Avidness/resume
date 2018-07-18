@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, Slide } from '@material-ui/core';
+import { Typography, Slide, Button } from '@material-ui/core';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/fontawesome-free-solid';
 import imgProfile from '../img/me.png';
@@ -23,8 +23,16 @@ const Header = () => (
     
     <Slide direction="up" in={true} timeout={1000}>
       <div id="header_bottom" className="center">
-        <Typography>More info</Typography>
-        <FontAwesomeIcon icon={faCaretDown} size="3x" />
+        <Button 
+           variant='extendedFab'
+           size='large'
+           onClick={() => 
+            window.scroll({
+              top: window.innerHeight, 
+              behavior: 'smooth' 
+            })}>
+            <FontAwesomeIcon icon={faCaretDown} size="3x" />
+        </Button>
       </div>
     </Slide>
   </div>
