@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Tooltip, Grow } from '@material-ui/core';
 
 const IconLink = (props) => (

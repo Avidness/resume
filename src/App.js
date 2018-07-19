@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
-import Header from './components/Header'
-import Menu from './components/Menu'
-import Steps from './components/Steps'
+import Header from './components/Header';
+import Menu from './components/Menu';
+import Steps from './components/Steps';
 import './styles/App.css';
 
 class App extends React.Component {

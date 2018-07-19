@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Typography, Slide, Button } from '@material-ui/core';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/fontawesome-free-solid';

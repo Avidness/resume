@@ -4,8 +4,8 @@ import Stepper from '@material-ui/core/Stepper';
 import Step from '@material-ui/core/Step';
 import StepLabel from '@material-ui/core/StepLabel';
 
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faCoffee, faMobileAlt, faUserTie } from '@fortawesome/fontawesome-free-solid'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { faCoffee, faMobileAlt, faUserTie } from '@fortawesome/fontawesome-free-solid';
 
 class Steps extends React.Component {
   render() {
