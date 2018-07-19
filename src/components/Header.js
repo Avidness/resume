@@ -24,7 +24,6 @@ const Header = () => (
     <Slide direction="up" in={true} timeout={1000}>
       <div id="header_bottom" className="center">
         <Button 
-           variant='extendedFab'
            size='large'
            onClick={() => 
             window.scroll({
