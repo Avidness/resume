@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Slide, Button } from '@material-ui/core';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import FaIcon from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/fontawesome-free-solid';
 
 import imgProfile from '../img/me.png';
@@ -31,7 +31,7 @@ const Header = () => (
               top: window.innerHeight, 
               behavior: 'smooth' 
             })}>
-            <FontAwesomeIcon icon={faCaretDown} size="3x" />
+            <FaIcon icon={faCaretDown} size="3x" />
         </Button>
       </div>
     </Slide>

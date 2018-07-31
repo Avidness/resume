@@ -4,7 +4,7 @@ import Stepper from '@material-ui/core/Stepper';
 import Step from '@material-ui/core/Step';
 import StepLabel from '@material-ui/core/StepLabel';
 
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import FaIcon from '@fortawesome/react-fontawesome';
 import { faCoffee, faMobileAlt, faUserTie } from '@fortawesome/fontawesome-free-solid';
 
 class Steps extends React.Component {
@@ -13,17 +13,17 @@ class Steps extends React.Component {
       <Stepper activeStep={1} alternativeLabel>
         <Step>
           <StepLabel>
-            <FontAwesomeIcon icon={faMobileAlt} size="6x" />
+            <FaIcon icon={faMobileAlt} size="6x" />
           </StepLabel>
           </Step>
           <Step>
             <StepLabel>
-              <FontAwesomeIcon icon={faCoffee} size="6x" />
+              <FaIcon icon={faCoffee} size="6x" />
             </StepLabel>
           </Step>
           <Step>
             <StepLabel>
-              <FontAwesomeIcon icon={faUserTie} size="6x" />
+              <FaIcon icon={faUserTie} size="6x" />
             </StepLabel>
           </Step>
         </Stepper>
