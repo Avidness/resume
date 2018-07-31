@@ -2,6 +2,7 @@ import React from 'react';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faIdCard, faCode } from '@fortawesome/fontawesome-free-solid';
 import { faGithub } from '@fortawesome/fontawesome-free-brands';
+
 import IconLink from './IconLink';
 import '../styles/header.css';
 

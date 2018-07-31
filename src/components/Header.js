@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography, Slide, Button } from '@material-ui/core';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/fontawesome-free-solid';
+
 import imgProfile from '../img/me.png';
 import HeaderLinks from './HeaderLinks';
 import '../styles/header.css';
