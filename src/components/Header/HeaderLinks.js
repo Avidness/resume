@@ -4,7 +4,6 @@ import { faPhone, faEnvelope, faIdCard, faCode } from '@fortawesome/fontawesome-
 import { faGithub } from '@fortawesome/fontawesome-free-brands';
 
 import IconLink from './IconLink';
-import '../styles/header.css';
 
 const HeaderLinks = () => (
   <div id="header_icons" className="center">

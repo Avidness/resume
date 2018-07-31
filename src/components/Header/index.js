@@ -3,9 +3,9 @@ import { Typography, Slide, Button } from '@material-ui/core';
 import FaIcon from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/fontawesome-free-solid';
 
-import imgProfile from '../img/me.png';
+import imgProfile from '../../img/me.png';
 import HeaderLinks from './HeaderLinks';
-import '../styles/header.css';
+import '../../styles/header.css';
 
 const Header = () => (
   <div id="header">
