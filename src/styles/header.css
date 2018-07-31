@@ -1,4 +1,5 @@
 #header{
+  font-family: 'Press Start 2P';
   height: 100vh; 
   background-image: url('../img/bg_circuits.svg');
   display: flex;
