@@ -17,7 +17,7 @@ const Header = () => (
     <Slide direction="up" in={true} timeout={800}>
       <span id="title">
         <Typography variant="display1" gutterBottom>Alan David Ness</Typography>
-        <Typography variant="title" gutterBottom>Full-Stack Web Developer</Typography>
+        <Typography variant="title" gutterBottom>Software Engineer</Typography>
         <HeaderLinks />
       </span>
     </Slide>
