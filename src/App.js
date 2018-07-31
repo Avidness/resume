@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import Header from './components/Header';
-import Menu from './components/Menu';
+import Menu from './components/Menu/';
 import Steps from './components/Steps';
 import './styles/App.css';
 

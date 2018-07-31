@@ -1,6 +1,11 @@
 import React from 'react';
 import { AppBar, Tabs, Tab } from '@material-ui/core';
 
+import Skills from './Skills';
+import Projects from './Projects';
+import Aboutme from './Aboutme';
+import Contact from './Contact';
+
 class Menu extends React.Component {
   constructor(){
     super();
@@ -18,16 +23,18 @@ class Menu extends React.Component {
     return (
       <AppBar position="static">
         <Tabs value={value} onChange={this.handleChange}>
-          <Tab label="Item One" />
-          <Tab label="Item Two" />
-          <Tab label="Item Three" />
+          <Tab label="Skills" />
+          <Tab label="Projects" />
+          <Tab label="About Me" />
+          <Tab label="Contact" />
         </Tabs>
-        {value === 0 && <p>Item One</p>}
-        {value === 1 && <p>Item Two</p>}
-        {value === 2 && <p>Item Three</p>}
+        {value === 0 && <Skills />}
+        {value === 1 && <Projects />}
+        {value === 2 && <Aboutme />}
+        {value === 3 && <Contact />}
       </AppBar>
     )
   }
 };
 
-export default Menu
+export default Menu;
