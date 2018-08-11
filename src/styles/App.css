@@ -11,12 +11,13 @@ body {
 }
 
 .parallax {
-  background-image: url("../img/background_river.png");
-  min-height: 500px; 
+  background-image: url("../img/bg_trees_blur.png");
+  min-height: 96vh; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 2em;
 }
 
 a {
