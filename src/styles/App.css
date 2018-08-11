@@ -28,3 +28,7 @@ a {
 a:hover {
   color: white;
 }
+
+.center{
+  text-align: center;
+}
