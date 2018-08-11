@@ -1,9 +1,11 @@
 import React from 'react';
+import { Typography } from '@material-ui/core';
 
 const Aboutme = () => {
   return (
-    <div>
-      About me
+    <div className='parallax'>
+    <Typography variant='body2' paragraph={true}>I like good movies, good beer, and good software.</Typography>
+    <Typography variant='body2' paragraph={true}>I don't like writing bio's, but I may add more to this later.</Typography>
     </div>
   )
 }
