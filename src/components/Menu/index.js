@@ -13,11 +13,9 @@ class Menu extends React.Component {
       value: 0
     }
   }
-
   handleChange = (e, value) => {
     this.setState({ value });
   };
-
   render() {
     let value = this.state.value;
     return (
