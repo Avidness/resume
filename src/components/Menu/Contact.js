@@ -6,7 +6,7 @@ import { faPhone, faEnvelope } from '@fortawesome/fontawesome-free-solid';
 
 const Contact = () => {
   return (
-    <div className='parallax center'>
+    <div className='parallax'>
       <Typography variant='display1' paragraph={true}>
         Send me an email: 
       </Typography>
