@@ -1,8 +1,8 @@
 import React from 'react';
 import { AppBar, Tabs, Tab } from '@material-ui/core';
 
-import Skills from './Skills';
-import Projects from './Projects';
+import Skills from './Skills/';
+import Projects from './Projects/';
 import Aboutme from './Aboutme';
 import Contact from './Contact';
 
