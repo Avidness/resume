@@ -1,0 +1,96 @@
+{
+  "skills": [
+    {
+      "name": "C#",
+      "icon": "code",
+      "value": 95
+    },
+    {
+      "name": "ReactJS",
+      "icon": "code",
+      "value": 80
+    },
+    {
+      "name": "AWS",
+      "icon": "code",
+      "value": 70
+    },
+    {
+      "name": ".NET",
+      "icon": "code",
+      "value": 90
+    },
+    {
+      "name": "dotnet core",
+      "icon": "code",
+      "value": 80
+    },
+    {
+      "name": "EF core",
+      "icon": "code",
+      "value": 70
+    },
+    {
+      "name": "NHibernate",
+      "icon": "code",
+      "value": 80
+    },
+    {
+      "name": "SQL Server",
+      "icon": "code",
+      "value": 95
+    },
+    {
+      "name": "Git",
+      "icon": "code",
+      "value": 90
+    },
+    {
+      "name": "Restful APIs",
+      "icon": "code",
+      "value": 90
+    },
+    {
+      "name": "CSS",
+      "icon": "code",
+      "value": 95
+    },
+    {
+      "name": "HTML",
+      "icon": "code",
+      "value": 95
+    },
+    {
+      "name": "MVC5",
+      "icon": "code",
+      "value": 95
+    },
+    {
+      "name": "Android",
+      "icon": "code",
+      "value": 50
+    }
+  ],
+  "projects": [
+    {
+      "title": "Request for Access - Web app", 
+      "body": "Website that centralizes RFA's from medical staff, volunteers, ancillary staff, and provides a control dashboard for the Provisioning team."
+    },
+    {
+      "title": "Survey Collection and Reporting", 
+      "body": "Led a small team to develop multi-faced website that collects surveys and displays statistics to clients."
+    },
+    {
+      "title": "Custom Active Directory Integration", 
+      "body": "Custom web apps needed to use AD authentication but also store roles and data, specific to each web app."
+    },
+    {
+      "title": "System Software Compiler", 
+      "body": "Writing a compiler (Scanner, Parser, Code Generator and Virtual Machine) to implement the PL/0 language as part of a semester project for Systems Software."
+    },
+    {
+      "title": "Customer Service Call App", 
+      "body": "Web application that uses the Twilio API to trigger a conversation between two parties and store the resulting conversation."
+    }
+  ]
+}
