@@ -3,7 +3,7 @@ import { Typography } from '@material-ui/core';
 import FaIcon from '@fortawesome/react-fontawesome';
 import { faSlack, faSkype } from '@fortawesome/fontawesome-free-brands';
 import { faPhone, faEnvelope } from '@fortawesome/fontawesome-free-solid';
-import SlideWrapper from '../SlideWrapper';
+import SlideWrapper from '../SlideWrapper/';
 
 const Contact = () => {
   return (

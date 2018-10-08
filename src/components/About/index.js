@@ -1,8 +1,8 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
-import SlideWrapper from '../SlideWrapper';
+import SlideWrapper from '../SlideWrapper/';
 
-const Aboutme = () => {
+const About = () => {
   return (
     <div className='parallax'>
       <SlideWrapper>
@@ -17,4 +17,4 @@ const Aboutme = () => {
   )
 }
 
-export default Aboutme;
+export default About;
