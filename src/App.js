@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
 
 import Header from './components/Header/';
-import Menu from './components/Menu/';
+import ContentWrapper from './containers/ContentWrapper';
 import './styles/App.css';
 
 const App = () => {
   return (
     <Fragment>
       <Header />
-      <Menu />
+      <ContentWrapper />
     </Fragment>
   )
 }

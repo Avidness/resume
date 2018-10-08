@@ -1,12 +1,14 @@
 import React from 'react';
 import { AppBar, Tabs, Tab } from '@material-ui/core';
 
-import Skills from './Skills/';
-import Projects from './Projects/';
-import Aboutme from './Aboutme';
-import Contact from './Contact';
+import Skills from '../components/Skills/';
+import Projects from '../components/Projects/';
+import About from '../components/About/';
+import Contact from '../components/Contact/';
 
-class Menu extends React.Component {
+import data from '../data.json';
+
+class ContentWrapper extends React.Component {
   constructor(){
     super();
     this.state = {
@@ -26,13 +28,13 @@ class Menu extends React.Component {
           <Tab label="About Me" />
           <Tab label="Contact" />
         </Tabs>
-        {value === 0 && <Skills />}
-        {value === 1 && <Projects />}
-        {value === 2 && <Aboutme />}
+        {value === 0 && <Skills skills={data.skills} />}
+        {value === 1 && <Projects projects={data.projects} />}
+        {value === 2 && <About />}
         {value === 3 && <Contact />}
       </AppBar>
     )
   }
 };
 
-export default Menu;
+export default ContentWrapper;
