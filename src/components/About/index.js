@@ -7,10 +7,10 @@ const About = () => {
     <div className='parallax'>
       <SlideWrapper>
         <Typography variant='body2' paragraph={true}>
-          I like good movies, good beer, and good software.
+          Motivated, creative, Software Engineer with a passion for user experience, design, and beautiful code. Heavily experienced in all aspects of web development.
         </Typography>
         <Typography variant='body2' paragraph={true}>
-          I don't like writing bio's, but I may add more to this later.
+          I like good movies, good beer, and good software.
         </Typography>
       </SlideWrapper>
     </div>
