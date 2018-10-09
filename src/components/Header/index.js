@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Slide, Button } from '@material-ui/core';
 import FaIcon from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faSkype } from '@fortawesome/fontawesome-free-brands';
+import { faGithub, faLinkedin } from '@fortawesome/fontawesome-free-brands';
 import { faPhone, faEnvelope, faIdCard, 
   faCode, faCaretDown } from '@fortawesome/fontawesome-free-solid';
 
@@ -25,7 +25,6 @@ const Header = () => (
           <IconLink tooltip="GitHub" href="https://github.com/Avidness" icon={faGithub} />
           <IconLink tooltip="Resume PDF" href="/resume.pdf" icon={faIdCard} />
           <IconLink tooltip="Linked In" href="https://www.linkedin.com/in/alandavidness/" icon={faLinkedin} />
-          <IconLink tooltip="Skype" href="https://join.skype.com/x6q2mMFoqsP4" icon={faSkype} />
           <IconLink tooltip="407-733-9763" href="tel:4077339763" icon={faPhone} />
           <IconLink tooltip="adavidness@gmail.com" href="mailto:adavidness@gmail.com" icon={faEnvelope} />
           <IconLink tooltip="Source code for this site" href="https://github.com/Avidness/resume" icon={faCode} />
