@@ -69,16 +69,50 @@
       "name": "Android",
       "icon": "code",
       "value": 50
+    },
+    {
+      "name": "Python",
+      "icon": "code",
+      "value": 60
+    },
+    {
+      "name": "Webpack",
+      "icon": "code",
+      "value": 60
+    },
+    {
+      "name": "NPM",
+      "icon": "code",
+      "value": 80
+    },
+    {
+      "name": "Windows",
+      "icon": "code",
+      "value": 95
+    },
+    {
+      "name": "Mac",
+      "icon": "code",
+      "value": 70
+    },
+    {
+      "name": "Linux",
+      "icon": "code",
+      "value": 80
     }
   ],
   "projects": [
     {
       "title": "Request for Access - Web app", 
-      "body": "Website that centralizes RFA's from medical staff, volunteers, ancillary staff, and provides a control dashboard for the Provisioning team."
+      "body": "Website that centralized access requests from medical and ancillary staff. Included a control dashboard for the Provisioning team, and a trigger system to send alerts via email or Slack when a request was fulfilled or required approval. Using C#, .NET as an API, with ReactJS as the frontend."
     },
     {
       "title": "Survey Collection and Reporting", 
-      "body": "Led a small team to develop multi-faced website that collects surveys and displays statistics to clients."
+      "body": "Multi-tiered solution that allowed the creation of custom surveys, which supported conditional branching and audio/video upload. Survey data was presented to clients via a variety of customizable reports/graphs. Included user management system with data restrictions based on hierarchy permissions. Used C#, .NET, MVC3, Knockout, and SQL Server."
+    },
+    {
+      "title": "Flu Shot Record Collection", 
+      "body": "Replacement for paper-based system. All employees now fill out an online consent form which nurses use to look up pertinent information, such as allergies. Staff uses a web-based UI to complete the transaction. Records are then transferred to a 3rd party EMR."
     },
     {
       "title": "Custom Active Directory Integration", 
@@ -91,6 +125,54 @@
     {
       "title": "Customer Service Call App", 
       "body": "Web application that uses the Twilio API to trigger a conversation between two parties and store the resulting conversation."
+    },
+    {
+      "title": "Security Update",
+      "body": "Refactored an existing plaintext password authentication system containing over a quarter million users. New system uses SHA-256 hash with per user randomized salt. Required updates to the internal API and rewriting the password recovery system to facilitate secure password changes."
+    }
+  ],
+  "work": [
+    {
+      "company": "Children's Hospital of Alabama",
+      "location": "Birmingham, AL",
+      "timeline": "2017 to Present",
+      "title": "Senior Software Engineer",
+      "details": [
+        "Writing modern web applications using C#, dotnet core, and ReactJS.",
+        "Collaborate with hospital staff to create applications that facilitate daily hospital needs and streamline efficiency across departments.",
+        "Integrate software solutions with existing infrastructure and 3rd party vendors using RESTful API’s.", 
+        "Use agile methodology to manage multiple timelines and complete tasks quickly."
+      ]
+    },
+    {
+      "company": "StackFrame, LLC",
+      "location": "Sanford, FL",
+      "timeline": "2010 to 2017",
+      "title": "Software Engineer",
+      "details": [
+        "Worked both independently and led a team to design and implement robust software solutions.",
+        "Analyzed existing software to add new features or migrate to modern cloud-based solutions.",
+        "Discussed business problems with clients through meetings and emails. Presented solutions and incorporated feedback.",
+        "Worked on a variety of solutions including web applications, Rest APIs, mobile apps, and data warehouses."
+      ]
+    },
+    {
+      "company": "Concord Management, LTD",
+      "location": "Orlando, FL",
+      "timeline": "2010",
+      "title": "Developer",
+      "details": [
+        "Worked on existing web applications and developed small-scale C# apps to meet diverse business needs."
+      ]
+    },
+    {
+      "company": "Northrop Grumman",
+      "location": "Orlando, FL",
+      "timeline": "2008 to 2009",
+      "title": "Software Tester",
+      "details": [
+        "Collaborated with interns and engineers to test large-scale java applicataions."
+      ]
     }
   ]
 }
