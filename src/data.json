@@ -31,6 +31,16 @@
       "value": 70
     },
     {
+      "name": "nodeJS",
+      "icon": "code",
+      "value": 60
+    },
+    {
+      "name": "Express",
+      "icon": "code",
+      "value": 50
+    },
+    {
       "name": "NHibernate",
       "icon": "code",
       "value": 80
