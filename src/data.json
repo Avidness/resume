@@ -1,14 +1,29 @@
 {
   "skills": [
     {
-      "name": "C#",
-      "icon": "code",
-      "value": 95
-    },
-    {
       "name": "ReactJS",
       "icon": "code",
+      "value": 90
+    },
+    {
+      "name": "ElasticSearch",
+      "icon": "code",
+      "value": 70
+    },
+    {
+      "name": "MongoDB",
+      "icon": "code",
       "value": 80
+    },
+    {
+      "name": "Linux",
+      "icon": "code",
+      "value": 80
+    },
+    {
+      "name": "Jest",
+      "icon": "code",
+      "value": 60
     },
     {
       "name": "AWS",
@@ -16,19 +31,19 @@
       "value": 70
     },
     {
-      "name": ".NET",
+      "name": "Python",
       "icon": "code",
-      "value": 90
+      "value": 60
+    },
+    {
+      "name": "C#",
+      "icon": "code",
+      "value": 95
     },
     {
       "name": "dotnet core",
       "icon": "code",
       "value": 80
-    },
-    {
-      "name": "EF core",
-      "icon": "code",
-      "value": 70
     },
     {
       "name": "nodeJS",
@@ -71,19 +86,9 @@
       "value": 95
     },
     {
-      "name": "MVC5",
-      "icon": "code",
-      "value": 95
-    },
-    {
       "name": "Android",
       "icon": "code",
       "value": 50
-    },
-    {
-      "name": "Python",
-      "icon": "code",
-      "value": 60
     },
     {
       "name": "Webpack",
@@ -104,11 +109,6 @@
       "name": "Mac",
       "icon": "code",
       "value": 70
-    },
-    {
-      "name": "Linux",
-      "icon": "code",
-      "value": 80
     }
   ],
   "projects": [
@@ -143,9 +143,18 @@
   ],
   "work": [
     {
+      "company": "Nu Borders, LLC",
+      "location": "New York, NY",
+      "timeline": "2019 to Present",
+      "title": "Senior Software Engineer",
+      "details": [
+        "React applications in a microservice infrastructure."
+      ]
+    },
+    {
       "company": "Children's Hospital of Alabama",
       "location": "Birmingham, AL",
-      "timeline": "2017 to Present",
+      "timeline": "2017 to 2019",
       "title": "Senior Software Engineer",
       "details": [
         "Writing modern web applications using C#, dotnet core, and ReactJS.",
