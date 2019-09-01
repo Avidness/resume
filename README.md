@@ -1,1 +1,1 @@
-Resume website
+Simple resume site, built with create-react-app and material-ui.
