@@ -1,1 +1,1 @@
-Simple resume site, built with create-react-app and material-ui.
+Simple resume site, built with create-react-app and material-ui. Hosted with Netify.
