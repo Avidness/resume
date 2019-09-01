@@ -1,7 +1,6 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
 import FaIcon from '@fortawesome/react-fontawesome';
-import { faSlack } from '@fortawesome/fontawesome-free-brands';
 import { faPhone, faEnvelope } from '@fortawesome/fontawesome-free-solid';
 import SlideWrapper from '../SlideWrapper/';
 
@@ -17,17 +16,6 @@ const Contact = () => {
             <FaIcon icon={faEnvelope} /> adavidness@gmail.com 
           </a>
         </Typography>
-    </SlideWrapper>
-    
-    <SlideWrapper>
-      <Typography variant='display1' paragraph={true}>
-        Chat with me online:
-      </Typography>
-      <Typography variant='headline' paragraph={true}>
-        <a target='blank' href='https://join.slack.com/t/avidness/shared_invite/enQtNDE0NzUzMTc3MDI3LTc2NjM1YjY5YzE5YjdhMGE2YTIxOTdhZjYxOTAyMzQzNjJkOTA5N2MyYTM0OGRkMjEyN2ZkMmFlN2JhZDNiM2M'>
-          <FaIcon icon={faSlack} /> Slack
-        </a>
-      </Typography>
     </SlideWrapper>
 
     <SlideWrapper>
