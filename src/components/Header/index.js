@@ -33,7 +33,7 @@ const Header = () => (
     </Slide>
     
     <Slide direction="up" in={true} timeout={1000}>
-      <div id="header_bottom" className="center">
+      <div id="header_bottom" className="center" style={{display: "none"}}>
         <Button 
            size='large'
            onClick={() => 

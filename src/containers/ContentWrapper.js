@@ -23,7 +23,7 @@ class ContentWrapper extends React.Component {
   render() {
     let value = this.state.value;
     return (
-      <AppBar position="static">
+      <AppBar position="static" style={{display: "none"}}>
         <Tabs value={value} onChange={this.handleChange}>
           <Tab label="Skills" />
           <Tab label="Work" />
