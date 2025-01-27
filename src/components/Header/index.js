@@ -23,7 +23,7 @@ const Header = () => (
 
         <div id="header_icons" className="center">
           <IconLink tooltip="GitHub" href="https://github.com/Avidness" icon={faGithub} />
-          <IconLink tooltip="Resume PDF" href="https://drive.google.com/file/d/1w6TOl88ORNWNrdoRa5s_kOh0NqjNBw7i" icon={faIdCard} />
+          <IconLink tooltip="Resume PDF" href="https://drive.google.com/file/d/1lHJE8tb0hlOTGpUEZbdbauScX2SQsOOW" icon={faIdCard} />
           <IconLink tooltip="Linked In" href="https://www.linkedin.com/in/alandavidness/" icon={faLinkedin} />
           <IconLink tooltip="407-733-9763" href="tel:4077339763" icon={faPhone} />
           <IconLink tooltip="adavidness@gmail.com" href="mailto:adavidness@gmail.com" icon={faEnvelope} />
