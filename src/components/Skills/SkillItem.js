@@ -1,5 +1,5 @@
 import React from 'react';
-import FaIcon from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
   ListItem, 
   ListItemText,
@@ -16,7 +16,7 @@ const SkillItem = (props) => (
     unmountOnExit>
     <Paper style={{margin: 10}}>
       <ListItem>
-          <FaIcon icon={props.icon} size='2x' />
+          <FontAwesomeIcon icon={props.icon} size='2x' />
           <ListItemText primary={props.text} secondary={props.subtext} />
         </ListItem>
         <LinearProgress variant='determinate' color='secondary' value={props.progress} />

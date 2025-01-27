@@ -1,7 +1,8 @@
 #header{
   font-family: 'Press Start 2P';
   height: 100vh; 
-  background-image: url('../img/bg_circuits.svg');
+  background-color: black;
+  /*background-image: url('../img/bg_circuits.svg');*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,18 +10,12 @@
 }
 
 #profile_image {
-  position: absolute;
-  top: 5%;
   height:25%;
   border-radius: 50%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 
 #title {
-  position: absolute;
   text-align: center;
-  top: 35%;
   padding:.5em;
 }
 
