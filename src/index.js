@@ -20,18 +20,32 @@ const theme = createTheme({
       dark: '#ba000d',
       contrastText: '#000',
     },
+    background: {
+      default: '#f5f5f5',
+    },
   },
   typography: {
     // Use the system font instead of the default Roboto font.
     fontFamily: [
-      'Press Start 2P',
+      'Roboto Mono',
     ].join(','),
+  },
+  overrides: {
+    MuiPaper: {
+      root: {
+        backgroundColor: '#94b9c6',
+        color: '#002b5c',
+        padding: '16px',
+        borderRadius: '8px',
+      },
+    },
   },
 });
 
 ReactDOM.render(
   <MuiThemeProvider theme={theme}>
     <App />
-  </MuiThemeProvider>, 
-  document.getElementById('root'));
+  </MuiThemeProvider>,
+  document.getElementById('root')
+);
 registerServiceWorker();
