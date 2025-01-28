@@ -32,7 +32,7 @@ a:hover {
 #header_wrapper {
   margin: 50px;
   padding: 50px;
-  min-width: 400px;
+  min-width: 220px;
   max-width: 500px;
   display: 'flex';
   flex-direction: 'column';
